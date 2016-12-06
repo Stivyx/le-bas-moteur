@@ -1,0 +1,26 @@
+.menu-princi {
+    padding: 20px;
+    max-height: 170px;
+    position: relative;
+    border-bottom: 1px solid #474342;
+}
+.logo {
+    max-height: 130px;
+}
+.menu-princi ul {
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.menu-princi li a {
+    font-size: 25px;
+    color: $black;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0 1rem
+}
+.menu-princi li img {
+    position: relative;
+    bottom: 5px;
+}

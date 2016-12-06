@@ -1,0 +1,33 @@
+
+<body>
+    <div class="off-canvas-wrapper">
+        <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+            <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+
+                <!-- Close button -->
+                <button class="close-button" aria-label="Close menu" type="button" data-close>
+                    <span aria-hidden="true">&times;</span>
+                </button>
+
+                <!-- Menu -->
+                <ul class="vertical menu">
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Qui ?</a></li>
+                    <li><a href="#">Quoi ?</a></li>
+                    <li><a href="#">Où et quand ?</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+
+            </div>
+
+            <div class="off-canvas-content" data-off-canvas-content>
+                {{> menu}}
+                <main>
+                    {{> slider}}
+                    {{> contenu-index}}
+                </main>
+                {{> footer}}
+            </div>
+        </div>
+    </div>
+</body>
